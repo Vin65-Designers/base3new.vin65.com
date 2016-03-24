@@ -1,0 +1,49 @@
+//v65:documents
+
+.v65-documents {
+	
+	ul {
+		list-style: none;
+	}
+
+	li {
+		margin: 0;
+		padding: 0.5em 0;
+
+		a {
+			background-size: 13px 16px;
+			background-repeat: no-repeat;
+			background-position: left center;
+			display: block;
+			padding-left: 24px;
+		}
+	}
+}
+
+	.v65-word {
+		background-image: url(../images/v65-icons/file-word.png);
+	}
+
+	.v65-excel {
+		background-image: url(../images/v65-icons/file-excel.png);
+	}
+
+	.v65-powerpoint {
+		background-image: url(../images/v65-icons/file-powerpoint.png);
+	}
+
+	.v65-pdf {
+		background-image: url(../images/v65-icons/file-pdf.png);
+	}
+
+	.v65-jpg {
+		background-image: url(../images/v65-icons/file-jpg.png);
+	}
+
+	.v65-zip {
+		background-image: url(../images/v65-icons/file-zip.png);
+	}
+
+	.v65-text {
+		background-image: url(../images/v65-icons/file-text.png);
+	}

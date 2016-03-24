@@ -1,0 +1,47 @@
+//v65:businessLocator
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+
+.v65-businessLocator {
+	margin-bottom: ($margin-bottom * 2);
+}
+
+.v65-businessLocatorSearch {
+	margin-bottom: ($margin-bottom * 2);
+	width: 100%;
+
+	input {
+		margin-bottom: 0.25rem;
+		width: 100%;
+	}
+
+	@media screen and (min-width: 30em) {
+		float: left;
+		width: 40%;
+	}
+}				
+
+	.v65-businessLocatorSearchOr {
+
+	}	
+					
+					
+.v65-businessLocatorList {
+	clear: both;
+	margin-bottom: ($margin-bottom * 2);
+	width: 100%;
+}
+					
+.v65-businessLocatorMap {
+	height: 300px;
+	position: relative;
+	width: 100%;
+
+	@media screen and (min-width: 30em) {
+		float: left;
+		width: 60%;
+	}
+	
+}

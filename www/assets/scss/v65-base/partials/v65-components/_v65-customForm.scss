@@ -1,0 +1,213 @@
+//v65:customForm
+
+//variables
+$error-color: #cc0000 !default;
+$margin-bottom: 1.5rem !default;
+
+.v65-customForm {
+	margin-bottom: ($margin-bottom * 2);
+	max-width: 26.25em;
+
+	div {
+		margin-bottom: ($margin-bottom * 0.66);
+		@include clearfix;
+	}
+}
+
+.v65-required {
+	color: $error-color;
+
+	&:after {
+		content: "*";
+	}
+
+}
+
+.v65-submit {
+	margin: ($margin-bottom * 0.66) 0;
+}
+
+
+//Checkbox types Radio Types
+input[type="checkbox"], input[type="radio"] {
+
+	& + label {
+		cursor: pointer;
+		display: inline;
+	}
+}
+
+.v65-customFormCheckboxGroup, .v65-customFormRadioGroup {
+	input[type="checkbox"], input[type="radio"]  {
+		margin-left: 1rem;
+	}
+
+	span {
+		display: block;
+		clear: both;
+		margin-bottom: 0.5em;
+	}
+}
+
+//Country Picker
+.v65-country, .v65-selectShippingAdress {
+	// width: 20em !important;
+}
+
+.v65-shippingState {
+	display: inline-block !important;
+	width: 4em !important;
+	vertical-align: middle;
+}
+
+//Date Picker
+.v65-customDatePicker {
+	@include clearfix;
+
+	input {
+		max-width: 12em;
+	}
+
+
+	& > div {
+		float: left;
+		margin-bottom: 0 !important;
+		padding-right: 1em;
+		width: 33.333%;
+		&:last-child{
+			padding-right: 0;
+		}
+	}
+
+	//Birthday Picker
+	input[name=day],input[name=birthDay] {
+	}
+
+	select[name=month],input[name=birthMonth] {
+		width: 100%;
+	}
+
+	.v65-month {
+	}
+
+	input[name=year], input[name=birthYear] {
+	}
+
+	span {
+		font-weight: bold;
+	}
+}
+
+//Names
+.v65-names {
+	@include clearfix;
+	// max-width: 21em;
+
+	.v65-name {
+
+		@media screen and (min-width: 27em) {
+			float: left;
+			margin-bottom: 0 !important;
+			padding-right: 1em;
+			width: 50%;
+		}
+	}
+
+	input[name="firstname"] {
+		max-width: 100%;
+		// width: 10em;
+	}
+
+	input[name="lastname"] {
+		max-width: 100%;
+		// width: 10em;
+	}
+}
+
+input[name="company"] {
+	@media screen and (min-width: 27em) {
+		// width: 20em !important;
+	}
+}
+
+input[name="address"] {
+	@media screen and (min-width: 27em) {
+		// width: 20em !important;
+	}
+}
+
+input[name="address2"] {
+	@media screen and (min-width: 27em) {
+		// width: 20em !important;
+	}
+}
+
+input[name="zipcode"] {
+	// width: 6em !important;
+}
+
+input[name="phone"] {
+	// width: 13em !important;
+}
+
+input[name="email"] {
+	// width: 13em !important;
+}
+
+input[name="cardNumber"] {
+	// width: 13em !important;
+}
+
+input[name="nameOnCreditCard"] {
+	// width: 13em !important;
+}
+
+input[name="cvv2"] {
+	text-align: center;
+	// width: 4em !important;
+}
+
+.v65-expiryDate {
+	@include clearfix;
+
+	.v65-date {
+		float: left;
+		margin-bottom: 0 !important;
+		padding-right: 1em;
+		width: auto;
+	}
+
+	.v65-paymentMonth {
+		width: 8em !important;
+	}
+
+	input[name=expYear] {
+		text-align: center;
+		// width: 4em;
+	}
+}
+
+//Passwords
+.v65-passwords {
+	@include clearfix;
+	// max-width: 21em;
+
+	.v65-password {
+		width: auto;
+
+		@media screen and (min-width: 27em) {
+			float: left;
+			margin-bottom: 0 !important;
+			padding-right: 1em;
+		}
+	}
+
+	input[name=password] {
+		// width: 10em;
+	}
+
+	input[name=passwordConfirm] {
+		// width: 10em;
+	}
+
+}

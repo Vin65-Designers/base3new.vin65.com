@@ -1,0 +1,23 @@
+//v65:footerNav
+
+.v65-footerNav {
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+
+	li {
+		display: inline-block;
+		margin: 0 0.5em;
+		position: relative;
+	}
+
+	a {
+		display: inline-block;
+		padding: 0.5em;
+	}
+
+}

@@ -1,0 +1,24 @@
+//v65:blog:categories
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+
+.v65-blogCategories {
+	margin: 0 0 $margin-bottom;
+	
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	span {
+		&:before {
+			content: "("
+		}
+		&:after {
+			content: ")"
+		}
+	}
+}

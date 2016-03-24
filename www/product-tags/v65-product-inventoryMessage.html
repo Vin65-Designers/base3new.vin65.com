@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title>v65:product:inventoryMessage</title>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="/assets/css/v65-base.min.css">
+	<link rel="stylesheet" href="/assets/css/theme-vin65Code.min.css">
+
+</head>
+<body>
+
+	<h1>&lt;v65:product:inventoryMessage&gt;&lt;/v65:product:inventoryMessage&gt;</h1>
+	<p>The <em>v65:product:inventoryMessage</em> tag displays the inventory message if necessary.</p>
+
+	<p><strong>Available on:</strong></p>
+	<ul>
+		<li>Product List</li>
+		<li>Product QuickView</li>
+		<li>Product Drilldown</li>
+	</ul>
+
+	<article class="sample">
+
+		<!--tag output-->
+		<div class="v65-product-inventoryMessage">
+			In Stock
+		</div>
+
+		<p>or</p>
+
+		<div class="v65-product-inventoryMessage">
+			<span class="v65-product-inventoryMessageCurrentInventory">There are only 24 left.</span>
+		</div>
+
+		<p>or</p>
+
+		<div class="v65-product-inventoryMessage">
+			<span class="v65-product-inventoryMessageOnBackOrder">On Back Order</span>
+		</div>
+
+		<p>or</p>
+
+		<div class="v65-product-inventoryMessage">
+			<span class="v65-product-inventoryMessageOutOfStock">Our Of Stock</span>
+		</div>
+		<!--/tag output-->
+
+	</article>
+
+<h5>The v65:product:inventoryMessage tag outputs the following HTML code:</h5>
+
+<pre>
+<code>&lt;div class="v65-product-inventoryMessage"&gt;
+	//Message from Admin Panel//
+&lt;/div&gt;
+
+<p>or</p>
+
+&lt;div class="v65-product-inventoryMessage"&gt;
+	&lt;span class="v65-product-inventoryMessageCurrentInventory"&gt;There are only 24 left.&lt;/span&gt;
+&lt;/div&gt;
+
+<p>or</p>
+
+&lt;div class="v65-product-inventoryMessage"&gt;
+	&lt;span class="v65-product-inventoryMessageOnBackOrder"&gt;On Back Order&lt;/span&gt;
+&lt;/div>
+
+<p>or</p>
+
+&lt;div class="v65-product-inventoryMessage"&gt;
+	&lt;span class="v65-product-inventoryMessageOutOfStock"&gt;Our Of Stock&lt;/span&gt;
+&lt;/div&gt;</code>
+</pre>
+
+
+</body>
+</html>

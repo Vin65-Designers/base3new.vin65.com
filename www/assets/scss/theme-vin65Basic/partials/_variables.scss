@@ -1,0 +1,78 @@
+//Site Max-Width:
+$max-width: 75rem; //16 (base font) * 75 rem = 1200px
+
+//baseTheme Typography
+$themeFont: 'Lato', sans-serif; //300,400
+
+$textColor: #121212;
+$titleColor: #222222;
+
+$linkColor: #336699;
+$linkColorHover: #336699;
+
+//button color
+$button: #fff;
+$buttonColor: #336699;
+$buttonColorOutline: darken($buttonColor, 10%);
+
+$buttonColorHover: lighten($buttonColor, 10%);
+$buttonColorOutlineHover: darken($buttonColorHover, 10%);
+
+//button alt color
+$buttonAlt: #666;
+$buttonAltColor: #cccccc;
+$buttonAltColorOutline: darken($buttonAltColor, 10%);
+
+$buttonAltColorHover: lighten($buttonAltColor, 10%);
+$buttonAltColorOutlineHover: darken($buttonAltColor, 10%);
+
+$hrColor: #ccc;
+
+///vin65 base color variables overrides
+$actionMessage-color: #993333;
+$complianceAdvisory-color: #993333;
+$incompliantStateMessage-color: #993333;
+$inventoryMessage-color: #993333;
+$salePrice-color: #993333;
+$shipDate-color: #993333;
+
+$error-color: #cc0000;
+$alert-color: #ffff99;
+
+$margin-bottom: 1.5rem;
+
+//helpers
+@mixin clearfix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+//v65-form select helper
+.v65-selectWrapper {
+	padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+//v65-attributes
+.v65-attribute {
+}
+	.v65-attributeLabel {
+		float: left;
+		font-weight: bold;
+		text-align: right;
+		padding-right: 0.5em;
+		width: 50%;
+	}
+
+	.v65-attributeValue {
+		float: left;
+		padding-left: 0.5em;
+		width: 50%;
+		text-align: left;
+	}
+

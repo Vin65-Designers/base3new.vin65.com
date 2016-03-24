@@ -1,0 +1,17 @@
+//v65:faq
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+.v65-faq {
+	@include clearfix;
+	margin-bottom: ($margin-bottom * 2);
+}
+
+	.v65-faqAnswer {
+		
+	}
+
+	.v65-faqBackLink {
+		
+	}

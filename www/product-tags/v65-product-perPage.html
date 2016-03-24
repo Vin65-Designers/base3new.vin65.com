@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title>v65:product:perPage</title>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="/assets/css/v65-base.min.css">
+	<link rel="stylesheet" href="/assets/css/theme-vin65Code.min.css">
+
+</head>
+<body>
+
+	<h1>&lt;v65:product:perPage&gt;&lt;/v65:product:perPage&gt;</h1>
+	<p>The <em>v65:product:perPage</em> tag displays products per page dropdown.</p>
+
+	<p>Optional Attribute(s):</p>
+	<blockquote>productCountList:&nbsp;&nbsp;&nbsp;&lt;v65:product:perPage productCountList="12,24,48,all"&gt;&lt;/v65product:perPage&gt;</blockquote>
+
+	<p><strong>Available on:</strong></p>
+	<ul>
+		<li>Product List</li>
+	</ul>
+
+	<article class="sample">
+
+		<!--tag output-->
+		<div class="v65-product-perPage">
+			<span class="v65-label">
+				Products per page 
+				<div class="v65-selectWrapper">
+					<select name="perPage">
+						<option>12</option>
+						<option>24</option>
+						<option>48</option>
+						<option>All</option>
+					</select>
+				</div>
+			</span>
+		</div>
+		<!--/tag output-->
+
+	</article>
+
+<h5>The v65:product:perPage tag outputs the following HTML code:</h5>
+
+<pre>
+<code>&lt;div class="v65-product-perPage"&gt;
+	&lt;span class="v65-label"&gt;
+		Products per page 
+		&lt;div class="v65-selectWrapper"&gt;
+			&lt;select name="perPage"&gt;
+				&lt;option&gt;12&lt;/option&gt;
+				&lt;option&gt;24&lt;/option&gt;
+				&lt;option&gt;48&lt;/option&gt;
+				&lt;option&gt;All&lt;/option&gt;
+			&lt;/select&gt;
+		&lt;/div&gt;
+	&lt;/span&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
+
+</body>
+</html>

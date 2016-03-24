@@ -1,0 +1,28 @@
+//v65:memberLogin
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+.v65-memberLogin {
+	@include clearfix;
+	margin: 0 auto ($margin-bottom * 2);
+}
+
+	.v65-memberLoginReturningCustom {
+		@include clearfix;
+
+		@media screen and (min-width:42.5em){
+			float: left;
+			margin-right: 8%;
+			width: 46%;
+		}
+	}
+
+	.v65-memberLoginFacebook {
+		@include clearfix;
+
+		@media screen and (min-width:42.5em){
+			float: left;
+			width: 46%;
+		}
+	}

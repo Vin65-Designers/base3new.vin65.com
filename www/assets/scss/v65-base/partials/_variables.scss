@@ -1,0 +1,71 @@
+//variables
+$actionMessage-color: #993333 !default;
+$complianceAdvisory-color: #993333 !default;
+$incompliantStateMessage-color: #993333 !default;
+$inventoryMessage-color: #993333 !default;
+$salePrice-color: #993333 !default;
+$shipDate-color: #993333 !default;
+
+$error-color: #cc0000 !default;
+$success-color: #5cb85c !default;
+$alert-color: #ffff99 !default;
+
+$margin-bottom: 1.5rem !default;
+
+
+//helpers
+@mixin clearfix {
+	&:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	}
+}
+
+@mixin hideText {
+    display: inline-block;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+//v65-error
+.v65-error {
+	color: $error-color;	
+}
+
+div.v65-error {
+	background: $error-color;
+	border-radius: 0.5em;
+	color: #fff;
+	margin-bottom: $margin-bottom;
+	padding: 1em;
+	text-align: center;		
+}
+
+//v65-success
+.v65-success {
+	color: $success-color;	
+}
+
+div.v65-success {
+	background: $success-color;
+	border-radius: 0.5em;
+	color: #fff;
+	margin-bottom: $margin-bottom;
+	padding: 1em;
+	text-align: center;		
+}
+
+//v65-grid
+.v65-row {
+	@include clearfix;
+	position: relative;
+}
+
+//v65-attributes
+.v65-attribute {
+	margin: 0 0 0.5em;
+	@include clearfix;
+}

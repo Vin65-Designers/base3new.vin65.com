@@ -1,0 +1,57 @@
+//v65:checkoutLogin
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+.v65-checkoutLogin {
+	@include clearfix;
+	margin-bottom: ($margin-bottom * 2)
+}
+
+	.v65-checkoutLoginReturningCustom {
+		@include clearfix;
+
+		@media screen and (min-width:42.5em){
+			float: left;
+			margin-right: 4%;
+			width: 30%;
+		}
+	}
+
+	.v65-checkoutLoginFacebook {
+		@include clearfix;
+
+		@media screen and (min-width:42.5em){
+			float: left;
+			margin-right: 4%;
+			width: 30%;
+		}
+	}
+
+		.v65-checkoutLoginOther {
+
+		}
+
+		.v65-checkoutLoginOtherSocialApps {
+			display: none;
+		}
+
+	.v65-checkoutLoginGuest {
+		@include clearfix;
+
+		@media screen and (min-width:42.5em){
+			float: left;
+			width: 32%;
+		}
+	}
+
+	.v65-checkoutLoginFooter {
+		margin: 0 auto;
+		max-width: 30em;
+
+		p {
+			text-align: center;
+			font-size: 0.875rem;
+		}
+	}
+

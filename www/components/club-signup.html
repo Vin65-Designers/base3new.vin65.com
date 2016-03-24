@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+   
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+
+		<title>Base 3 - Checkout</title>
+
+		<link rel="stylesheet" href="/assets/css/v65-base.min.css">
+		<link rel="stylesheet" href="/assets/css/theme-vin65Basic.min.css">
+	</head>
+
+	<body>
+
+		<header>
+
+			<div class="logo">
+				<img src="/assets/images/logo.svg" alt="Winery & Vineyard">
+			</div>
+			<!--/logo-->
+
+		</header>
+
+		<section>
+			
+			<article>
+
+				<h1>Checkout</h1>
+
+				<div class="v65-checkoutSteps">
+					<span>Step 1: Cart</span>
+					<span class="v65-active">Step 2: Checkout</span>
+					<span>Step 3: Receipt</span>
+				</div>
+				<!--/v65-checkoutSteps-->
+
+				<div class="v65-checkout">
+						
+					<div class="v65-shippingInformation">
+
+						<h3>Shipping Information</h3>
+
+						<p>Signature is required for delivery</p>
+
+						<form action="" method="post">
+							
+							<div>
+								<input type="checkbox" id="pickup" name="pickup" value="1"> 
+								<label for="pickup">I would like to pick up this order.</label>
+							</div>
+
+							<div>
+								<div class="v65-selectWrapper v65-country">
+									<select name="country">
+										<option>Choose your country</option>
+										<option>Canada</option>
+										<option>USA</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="v65-customDatePicker">
+								
+								Date of Birth <span class="v65-required">&nbsp;</span><br>
+								
+								<div class="v65-date v65-day">
+									<input type="text" name="day" value="01">
+									<label for="day">Day</label>
+								</div>
+								
+								<div class="v65-date v65-month">
+									<div class="v65-selectWrapper">
+										<select name="month">
+											<option>January</option>
+											<option>February</option>
+											<option>March</option>
+											<option>April</option>
+											<option>May</option>
+											<option>June</option>
+											<option>July</option>
+											<option>August</option>
+											<option>September</option>
+											<option>October</option>
+											<option>November</option>
+											<option>December</option>
+										</select>
+									</div>
+									<label for="month">Month</label>
+								</div>
+								
+								<div class="v65-date v65-year">
+									<input type="text" name="year" value="1992">
+									<label for="year">Year</label>
+								</div>
+
+							</div>
+
+							<div class="v65-names">
+
+								<div class="v65-name">
+									<label for="firstname">First Name <span class="v65-required">&nbsp;</span></label>
+									<input type="text" name="firstname" value="">
+								</div>
+
+								<div class="v65-name">
+									<label for="lastname">Last Name <span class="v65-required">&nbsp;</span></label>
+									<input type="text" name="lastname" value="">
+								</div>
+
+							</div>
+
+							<div>
+								<label for="company">Company</label>
+								<input type="text" name="company" value="">
+							</div>
+
+							<div>
+								<label for="address">Address <span class="v65-required">&nbsp;</span></label>
+								<input type="text" name="address" value="">
+							</div>
+
+							<div>
+								<input type="text" name="address2" value="">
+							</div>
+
+							<div>
+								<label for="zipcode">Zip Code <span class="v65-required">&nbsp;</span></label>
+								<input type="text" name="zipcode" value=""> City, State
+							</div>
+
+							<div>
+								<label for="phone">Phone <span class="v65-required">&nbsp;</span></label>
+								<input type="tel" name="phone" value="">
+							</div>
+
+							<div>
+								<label for="email">Email <span class="v65-required">&nbsp;</span></label>
+								<input type="email" name="email" value="">
+							</div>
+
+							<div>
+								<input type="checkbox" id="special" name="special" value="1"> 
+								<label for="special">Add a Gift Message or Special Shipping Instructions</label>
+							</div>
+
+							<div>
+								<button class="button">Continue</button>
+							</div>
+
+						</form>
+
+					</div>
+					<!--/v65-shippingInformation-->
+
+
+					<div class="v65-billingInformation">
+
+						<h3>Billing Information</h3>
+
+						<form action="" method="post">
+
+							<div class="v65-row">
+							
+								<div class="v65-billingContact">
+
+									<div>
+										<input type="checkbox" id="sameAsShipping" name="sameAsShipping" value="1"> 
+										<label for="sameAsShipping">Use my shipping information.</label>
+									</div>
+
+									<div>
+										<div class="v65-selectWrapper v65-country">
+											<select name="country">
+												<option>Choose your country</option>
+												<option>Canada</option>
+												<option>USA</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="v65-customDatePicker">
+									
+										Date of Birth <span class="v65-required">&nbsp;</span><br>
+										
+										<div class="v65-date v65-day">
+											<label for="day">Day</label>
+											<input type="text" name="day" value="01">
+										</div>
+										
+										<div class="v65-date v65-month">
+											<label for="month">Month</label>
+											<div class="v65-selectWrapper">
+												<select name="month">
+													<option>January</option>
+													<option>February</option>
+													<option>March</option>
+													<option>April</option>
+													<option>May</option>
+													<option>June</option>
+													<option>July</option>
+													<option>August</option>
+													<option>September</option>
+													<option>October</option>
+													<option>November</option>
+													<option>December</option>
+												</select>
+											</div>
+										</div>
+										
+										<div class="v65-date v65-year">
+											<label for="year">Year</label>
+											<input type="text" name="year" value="1992">
+										</div>
+
+									</div>
+
+									<div class="v65-names">
+
+										<div class="v65-name">
+											<label for="firstname">First Name <span class="v65-required">&nbsp;</span></label>
+											<input type="text" name="firstname" value="">
+										</div>
+
+										<div class="v65-name">
+											<label for="lastname">Last Name <span class="v65-required">&nbsp;</span></label>
+											<input type="text" name="lastname" value="">
+										</div>
+
+									</div>
+
+									<div>
+										<label for="company">Company</label>
+										<input type="text" name="company" value="">
+									</div>
+
+									<div>
+										<label for="address">Address <span class="v65-required">&nbsp;</span></label>
+										<input type="text" name="address" value="">
+									</div>
+
+									<div>
+										<input type="text" name="address2" value="">
+									</div>
+
+									<div>
+										<label for="zipcode">Zip Code <span class="v65-required">&nbsp;</span></label>
+										<input type="text" name="zipcode" value=""> City, State
+									</div>
+
+									<div>
+										<label for="phone">Phone <span class="v65-required">&nbsp;</span></label>
+										<input type="tel" name="phone" value="">
+									</div>
+
+									<div>
+										<label for="email">Email <span class="v65-required">&nbsp;</span></label>
+										<input type="email" name="email" value="">
+									</div>
+
+								</div>
+								<!--/v65-billingContact-->
+
+								<div class="v65-paymentInformation">
+
+									<div>
+										<span class="v65-creditCard v65-visaOn">Visa</span>
+										<span class="v65-creditCard v65-mastercard">MasterCard</span>
+										<span class="v65-creditCard v65-amex">AMEX</span>
+										<!--
+											<span class="v65-creditCard v65-paypal">PayPal</span>
+											<span class="v65-creditCard v65-discover">Discover</span>
+											<span class="v65-creditCard v65-dinners">Discover</span>
+											<span class="v65-creditCard v65-jcb">JCB</span>
+										-->
+									</div>
+
+									<div class="v65-cardNumber">
+										<label for="cardNumber">Card Number <span class="v65-required">&nbsp;</span></label>
+										<input type="text" name="cardNumber" value="">
+									</div>
+
+									<div class="v65-nameOnCard">
+										<label for="nameOnCreditCard">Name on Card <span class="v65-required">&nbsp;</span></label>
+										<input type="text" name="nameOnCreditCard" value="">
+									</div>
+
+									<div class="v65-expiryDate v65-customDatePicker">
+										
+										Expiry Date <span class="v65-required">&nbsp;</span><br>
+										
+										<div class="v65-date v65-month">
+											<label for="month">Month</label>
+											<div class="v65-selectWrapper v65-paymentMonth">
+												<select name="expMonth">
+													<option>01 January</option>
+													<option>02 February</option>
+													<option>03 March</option>
+													<option>04 April</option>
+													<option>05 May</option>
+													<option>06 June</option>
+													<option>07 July</option>
+													<option>08 August</option>
+													<option>09 September</option>
+													<option>10 October</option>
+													<option>11 November</option>
+													<option>12 December</option>
+												</select>
+											</div>
+										</div>
+										<div class="v65-date v65-year">
+											<label for="expYear">Year</label>
+											<input type="text" name="expYear" value="1992">
+										</div>
+
+									</div>
+
+									<div class="v65-cvv2">
+										<label for="cvv2">CVV2 <span class="v65-required">&nbsp;</span></label>
+										<input type="text" name="cvv2" value="">
+									</div>
+
+								</div>
+								<!--/v65-paymentInformation-->
+
+							</div>
+							<!--/v65-row-->
+
+							<p class="v65-submit">
+								<button class="v65-button">Continue</button>
+							</p>
+
+						</form>
+
+					</div>
+					<!--/v65-billingInformation-->
+
+					<div class="v65-createAccount">
+
+						<h3>Create Account</h3>
+
+						<form action="" method="post">
+
+							<div class="v65-passwords">
+
+								<div class="v65-password">
+									<label for="password">Password <span class="v65-required">&nbsp;</span></label>
+									<input type="password" name="password" value="">
+								</div>
+
+								<div class="v65-passwordConfirm">
+									<label for="passwordConfirm">Confirm Password <span class="v65-required">&nbsp;</span></label>
+									<input type="password" name="passwordConfirm">
+								</div>
+
+							</div>
+		
+							<p>(6-18 Characters, must include a number and uppercase character)</p>
+
+							<div>
+								<button>Create Account</button>
+							</div>
+
+						</form>
+
+					</div>
+					<!--/v65-createAccount-->
+
+
+				</div>
+				<!--/v65-checkout-->
+
+
+				<div class="v65-checkoutTools">
+						
+					<div class="v65-checkoutSummary">
+						
+						<h3>Club Description</h3>
+	
+						<p>Curabitur pulvinar interdum condimentum. Duis imperdiet ultricies nisi, ut laoreet lacus laoreet id. Pellentesque id ultrices purus. Integer ante enim, porta vitae tincidunt hendrerit, consectetur vitae risus. Cras at erat est, non dapibus diam. Aliquam pharetra posuere massa sed egestas. Fusce mi orci, facilisis ac facilisis eu, placerat a velit.</p>
+
+						<ul>
+							<li>Aenean facilisis lectus sem, eu cursus lorem.</li>
+							<li>Sed dui sem, gravida ut molestie nec, facilisis non leo.</li>
+							<li>Ut elit ante, blandit eget interdum venenatis.</li>
+						</ul>
+
+						<p>Sed ut tellus nisi, a pellentesque lacus. Sed ante tellus, interdum ac malesuada quis, hendrerit at enim. Nam accumsan urna sit amet massa scelerisque varius. Phasellus adipiscing tempus pretium. Phasellus vestibulum viverra convallis. Aenean facilisis lectus sem, eu cursus lorem. Donec elementum elementum porttitor. Quisque et vehicula lorem. Sed dui sem, gravida ut molestie nec, facilisis non leo. Morbi velit turpis, pulvinar id porttitor at, pretium a nibh. Ut elit ante, blandit eget interdum venenatis, posuere ut metus. Cras odio orci, venenatis id fringilla nec, pulvinar ac lorem.</p>
+
+					</div>
+					<!--/checkoutSummary-->
+
+				</div>
+				<!--/v65-checkoutTools-->
+
+			</article>
+			
+		</section>
+
+		<footer>
+			
+			<div class="v65-footerNav">
+				<ul>
+					<li><a href="terms-of-use.html">Terms of Use</a></li>
+					<li><a href="returns-cancellations.html">Returns &amp; Cancellations</a></li>
+					<li><a href="privacy-policy.html">Privacy Policy</a></li>
+					<li><a href="contact-us.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<!--/v65-footerNav-->
+
+			<p class="footerTools"> 
+				<a href="tel:1-8999-999-9999">Call Us Toll Free: <strong>1-999-999-9999</strong></a>
+				<a href="mailto:info@generic.com">info@generic.com</a></li>
+				<a href="http://maps.google.com">Box 0000, City, State PostalCode</a></li>
+			</p>
+			<!--/footerTools-->
+
+			<p class="footerLegal">
+				<span class="v65-copyright">
+					&copy; Copyright 2014 Generic
+				</span><!--/v65-vin65Accolade-->
+				<span class="v65-vin65Accolade">
+					<a href="http://www.vin65.com">Site by Vin65</a>
+				</span><!--/v65-vin65Accolade-->
+			</p>
+			<!--/footerLegal-->
+
+		</footer>
+
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery/jquery-2.1.1.min.js"><\/script>')</script>
+		
+		<script src="/assets/js/scripts.js"></script>
+	   
+	</body>
+
+</html>

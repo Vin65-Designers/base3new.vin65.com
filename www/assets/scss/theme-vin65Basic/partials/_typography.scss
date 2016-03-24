@@ -1,0 +1,223 @@
+//baseTheme Typography
+html, body 
+{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+	color: $textColor;
+	font-family: $themeFont;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	@include clearfix;
+	padding: 1em 0.5em;
+	margin: 0 auto;
+	max-width: $max-width;
+
+	@media screen and (min-width: 23em) {
+		padding: 1em;
+	}
+}
+
+article {
+	@include clearfix;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+	margin: 0 0 1.4em;
+	font-weight: normal;
+}
+
+h1 {
+	color: $titleColor;
+	font-size: 2rem;
+	line-height: 1.2;
+	margin: 0.5em 0;
+
+	@media screen and (min-width: 23em) {
+		font-size: 2.4rem;
+	}
+}
+
+h2 {
+	color: $titleColor;
+	font-size: 1.9rem;
+	line-height: 1.2;
+	margin: 0 0 0.5em 0;
+}
+
+h3 {
+	color: $titleColor;
+	font-size: 1.6rem;
+	line-height: 1.2;
+	margin: 0 0 0.5em 0;
+}
+
+h4 {
+	color: $titleColor;
+	font-size: 1.2rem;
+	font-weight: bold;
+	line-height: 1.2;
+	margin: 0.5em 0;
+}
+
+h5 {
+	color: $titleColor;
+	font-size: 1rem;
+	font-weight: bold;
+	line-height: 1.2;
+	margin: 0 0 1em;
+}
+
+p {
+	line-height: 1.4;
+}
+
+ul {
+	margin-bottom: 1.4em;
+}
+
+li {
+	padding: 0 0 0.7em;
+}
+
+img {
+	max-width: 100%;
+	height: auto !important;
+}
+
+a {
+	color: $linkColor;
+	text-decoration: none;
+
+	&:hover {
+		cursor: pointer;
+		text-decoration: underline;
+	}
+}
+
+sup {
+	font-size: .7em;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+	top: -0.4em;
+}
+
+//Forms
+
+form {
+	margin: 0 0 1em;
+
+	div {
+		@include clearfix;
+		margin-bottom: 0.5em;
+	}
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+legend {
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+
+label {
+	color: #666;
+	display: block;
+	margin-bottom: 0.25em;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=password], input[type=username] {
+	border: 1px solid #ccc;
+	border-radius: 0.25em;
+	color: #666;
+	font-size: 1rem;
+	padding: 0.5em;
+	width: 100%;
+	-webkit-appearance: none;
+}
+
+textarea {
+	border: 1px solid #ccc;
+	border-radius: 0.25em;
+	color: #666;
+	font-size: 1rem;
+	padding: 0.5em;
+	width: 100%;
+	-webkit-appearance: none;
+}
+
+//v65-select boxes
+.v65-selectWrapper {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+    background: #fff;
+    margin-bottom: 0 !important;
+    padding: 0.2em 0;
+    position: relative;
+
+    &:after {
+		top: 50%;
+		right: 15px;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(0, 0, 0, 0);
+		border-top-color: #000000;
+		border-width: 5px;
+		margin-top: -2px;
+		z-index: 100;
+	}
+
+    select {
+		padding: 5px 8px;
+		width: 130%;
+		border: none;
+		box-shadow: none;
+		background-color: transparent;
+		background-image: none;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+	}
+
+	select:focus {
+		outline: none;
+	}
+}
+
+//v65:product:perPage
+.v65-product-perPage {
+	.v65-selectWrapper {
+		display: inline-block !important;
+		width: 4em !important;
+		vertical-align: middle;
+	}
+}
+
+//v65:product:sortBy
+.v65-product-sortBy {
+	.v65-selectWrapper {
+		display: inline-block !important;
+		width: 12em !important;
+		vertical-align: middle;
+	}
+}

@@ -1,0 +1,57 @@
+//v65:wine:attributes
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+.v65-wine-attribute {
+	@include clearfix;
+	margin-bottom: $margin-bottom;
+}
+
+	.v65-wine-attributeLabel {
+		font-size: 1.1em;
+		font-weight: bold;
+		margin-bottom: 0.25em;
+	}
+
+	.v65-wine-attributeValue {
+
+	}
+
+
+.v65-wine-awards {
+	
+}
+
+.v65-wine-foodPairing {
+	
+}
+
+.v65-wine-otherNotes {
+	
+}
+
+.v65-wine-production {
+	
+}
+
+.v65-wine-productionNotes {
+	
+}
+
+.v65-wine-ratings {
+
+}
+
+.v65-wine-tastingNotes {
+	
+}
+
+.v65-wine-vineyardNotes {
+	
+}
+
+.v65-wine-winemakerNotes {
+	
+}
+

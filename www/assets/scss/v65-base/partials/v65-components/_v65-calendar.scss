@@ -1,0 +1,271 @@
+//v65:calendar
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+
+.v65-calendar {
+	margin: 0 auto ($margin-bottom * 2) auto;
+	max-width: 32em;
+	width: 100%;
+}
+
+
+//v65:calendarList
+
+.v65-calendarList {
+
+	.v65-calendarListMonth {
+		margin-bottom: ($margin-bottom * 2);
+	}
+
+		.v65-calendarMonth {
+			font-weight: bold;
+		}
+
+}
+
+.v65-calendarEvent {
+	margin-bottom: ($margin-bottom * 0.5);
+
+	.v65-calendarEventTitle {
+		font-size: 1.25em;
+		margin-bottom: 0.5em;
+		padding: 0;
+	}
+
+	.v65-calendarEventMeta {
+		font-size: 0.875rem;
+		margin-bottom: $margin-bottom;
+		padding-left: 1em;
+	}
+
+	.v65-calendarEventDescription {
+		padding-left: 1em;
+	}
+	
+}
+
+//v65-calendarBlock
+.v65-calendarBlock {
+
+	@media screen and (min-width: 32.5em) {
+		max-width: 90% !important;
+	}
+
+	.v65-calendarNav {
+		@include clearfix();
+		margin-bottom: $margin-bottom;
+		text-align: center;
+	}
+
+		.v65-calendarTitle {
+			float: left;
+			font-size: 1.25em;
+			width: 60%;
+		}
+
+		.v65-calendarPreviousLink {
+			float: left;
+			text-align: left;
+			width: 20%;
+
+			&:before {
+				content: "\00ab\00a0";
+			}
+		}
+		
+		.v65-calendarNextLink {
+			float: left;
+			text-align: right;
+			width: 20%;
+
+			&:after {
+				content: "\00a0\00bb";
+			}
+		}
+
+	.v65-calendarGrid {
+		border-left: 1px solid #ccc;
+		margin: 0 auto;
+		width: 100%;
+
+		@media screen and (min-width: 32.5em) {
+			display: table;
+			border-collapse:collapse;
+		}
+	}
+
+		.v65-calendarRow {
+			color: #999;
+			@include clearfix();
+			width: 100%;
+
+			@media screen and (min-width: 32.5em) {
+				display: table-row;
+			}
+			
+			.v65-calendarDay {
+				height: 100px;
+				border-right: 1px solid #ccc;
+				border-bottom: 1px solid #ccc;
+				padding: 0.5rem;
+
+				@media screen and (min-width: 32.5em) {
+					display: table-cell;
+					// width: 14.2857142857%;
+				}
+
+				&:first-child {
+					border-top: 1px solid #ccc;
+
+					@media screen and (min-width: 32.5em) {
+						border-top: 0;
+					}
+				}
+			}
+
+			.v65-calendarDate {
+				float: right;
+				font-size: 0.75rem;
+				padding: 0 0.25em 0.25em;
+				text-align: right;
+				width: 1.5em;
+			}
+
+			.v65-calendarToday {
+				color: #000;
+
+				.v65-calendarDate {
+					border-color: #000;
+				}
+			}
+
+			.v65-calendarOffMonth {
+				background: #eee;
+				color: #b3b3b3;
+			}
+
+			.v65-calendarEvent {
+				clear: both;
+				display: block;
+				font-size: 0.75rem;
+				line-height: auto;
+				padding-bottom: 0.5em;
+			}
+
+		}
+
+		.v65-calendarHeader {
+			color: #fff;
+			display: none;
+			font-weight: bold;
+			text-align: center;
+
+			@media screen and (min-width: 32.5em) {
+				display: table-row;
+			}
+
+			.v65-calendarDay {
+				background: #999;
+				height: auto;
+			}
+		}
+
+}
+
+//v65-calendarBlockMini
+.v65-calendarBlockMini {
+
+	@media screen and (min-width: 32.5em) {
+		max-width: 90% !important;
+	}
+
+	.v65-calendarNav {
+		@include clearfix();
+		margin-bottom: $margin-bottom;
+		text-align: center;
+	}
+
+		.v65-calendarTitle {
+			float: left;
+			font-size: 0.875em;
+			width: 60%;
+		}
+
+		.v65-calendarPreviousLink {
+			float: left;
+			text-align: left;
+			width: 20%;
+
+			&:before {
+				content: "\00ab\00a0\00a0";
+			}
+		}
+		
+		.v65-calendarNextLink {
+			float: left;
+			text-align: right;
+			width: 20%;
+
+			&:after {
+				content: "\00a0\00a0\00bb";
+			}
+		}
+
+	.v65-calendarGrid {
+		border-left: 1px solid #ccc;
+		display: table;
+		border-collapse:collapse;
+		margin: 0 auto;
+		width: 100%;
+	}	
+
+		.v65-calendarRow {
+			color: #999;
+			display: table-row;
+			@include clearfix();
+			width: 100%;
+			
+			div {
+				-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+				display: table-cell;
+				width: 14.285714286%;
+				border-right: 1px solid #ccc;
+				border-bottom: 1px solid #ccc;
+				font-size: 0.75em;
+				padding: 0.25rem;
+				text-align: center;
+
+				&:first-child {
+					border-top: 1px solid #ccc;
+
+					@media screen and (min-width: 32.5em) {
+						border-top: 0;
+					}
+				}
+			}
+
+			.v65-calendarToday {
+				color: #000;
+
+				.v65-calendarDate {
+					border-color: #000;
+				}
+			}
+
+			.v65-calendarOffMonth {
+				background: #eee;
+				color: #b3b3b3;
+			}
+
+		}
+
+		.v65-calendarHeader {
+			background: #999;
+			display: table-row;
+			color: #fff;
+			text-align: center;
+		}
+
+}

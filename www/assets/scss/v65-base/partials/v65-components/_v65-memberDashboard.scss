@@ -1,0 +1,264 @@
+//v65:memberDashboard
+//variables
+$margin-bottom: 0.8rem;
+
+.v65-memberDashboard {
+
+	p {
+		@include clearfix;
+	}
+
+	.buttonAltSmall {
+		float: right;
+	}
+		
+	.v65-row div{
+		line-height: 1.4em;
+		@include clearfix;
+	}
+
+}
+
+.v65-memberPrime {
+	background: #eee;
+	margin: 0 0 ($margin-bottom * 2);
+	padding: 1em 2em;
+	border-radius: 1em;
+
+	h4 {
+		text-align: center;
+	}
+
+	p {
+		text-align: center;
+		&:after {
+			display: block;
+			clear:none;
+		}
+	}
+
+	@media screen and (min-width: 30em) {
+		margin: 0 0 ($margin-bottom * 2);
+
+		h4 {
+			text-align: left;
+		}
+
+		p {
+			text-align: left;
+		}
+	}
+
+	#brixLogo {
+
+		@media screen and (min-width: 30em) {
+			float: right;
+			margin: 0 0 ($margin-bottom * 2) 2em;
+			text-align: right;
+			width: 45%;
+		}
+
+		img {
+			width: 150px;
+
+			@media screen and (min-width: 30em) {
+				width: 250px;
+			}
+		}
+	}
+}
+	
+
+.v65-memberDashboardBilling {
+	margin: 0 0 ($margin-bottom * 2);
+
+	@media screen and (min-width:42.5em){
+		float: left;
+		padding: 0 2%;
+		width: 46%;
+	}
+
+	h4 {
+		background: url(../images/v65-icons/profile.svg) left top no-repeat;
+		padding-left: 1.75em;
+	}
+}
+
+.v65-memberDashboardProfile {
+	margin: 0 0 ($margin-bottom * 2);
+
+	@media screen and (min-width:42.5em){
+		float: left;
+		padding: 0 2%;
+		width: 46%;
+	}
+
+	h4 {
+		background: url(../images/v65-icons/lock.svg) left top no-repeat;
+		padding-left: 1.75em;
+	}
+
+}
+
+.v65-memberDashboardClubs {
+	margin: 0 0 ($margin-bottom * 2);
+
+	@media screen and (min-width:42.5em){
+		float: left;
+		padding: 0 2%;
+		width: 46%;
+	}
+
+	h4 {
+		background: url(../images/v65-icons/club.svg) left top no-repeat;
+		padding-left: 1.75em;
+	}
+
+	.v65-clubMembership {
+		border-bottom: 1px solid #eee;
+		padding-bottom: 0.3em;
+	}
+
+}
+
+.v65-memberDashboardOrders {
+	margin: 0 0 ($margin-bottom * 2);
+
+	@media screen and (min-width:42.5em){
+		float: left;
+		padding: 0 2%;
+		width: 46%;
+	}
+
+	h4 {
+		background: url(../images/v65-icons/history.svg) left top no-repeat;
+		padding-left: 1.75em;
+	}
+
+	p {
+		border-bottom: 1px solid #eee;
+		padding-bottom: 0.3em;
+	}
+
+}
+
+.v65-memberAddressBook {
+	margin: 0 0 ($margin-bottom * 2);
+
+	@media screen and (min-width:42.5em){
+		float: left;
+		padding: 0 2%;
+		width: 46%;
+	}
+
+	h4 {
+		background: url(../images/v65-icons/address-book.svg) left top no-repeat;
+		padding-left: 1.75em;
+	}
+
+	.v65-memberAddress {
+		border-bottom: 1px solid #eee;
+		padding-bottom: 0.3em;
+	}
+
+}
+
+.v65-memberCreditCards {
+	margin: 0 0 ($margin-bottom * 2);
+
+	@media screen and (min-width:42.5em){
+		float: left;
+		padding: 0 2%;
+		width: 46%;
+	}
+
+	h4 {
+		background: url(../images/v65-icons/credit-cards.svg) left top no-repeat;
+		padding-left: 1.75em;
+	}
+
+	a {
+		margin-right: 1em;
+	}
+
+	.buttonAltSmall {
+		margin-right: 0;
+	}
+
+	p {
+		border-bottom: 1px solid #eee;
+		padding-bottom: 0.3em;
+	}
+
+	span {
+		margin-left: 1em;
+	}
+
+}
+
+.v65-memberAllocations {
+	margin: 0 0 ($margin-bottom * 2);
+
+	@media screen and (min-width:42.5em){
+		float: left;
+		padding: 0 2%;
+		width: 46%;
+	}
+
+	h4 {
+		background: url(../images/v65-icons/star.svg) left top no-repeat;
+		padding-left: 1.75em;
+	}
+}
+
+.v65-memberAllocationHistory {
+	margin: 0 0 ($margin-bottom * 2);
+
+	@media screen and (min-width:42.5em){
+		float: left;
+		padding: 0 2%;
+		width: 46%;
+	}
+
+	h4 {
+		background: url(../images/v65-icons/history.svg) left top no-repeat;
+		padding-left: 1.75em;
+	}
+
+	p {
+		border-bottom: 1px solid #eee;
+		padding-bottom: 0.3em;
+	}
+
+}
+
+.v65-memberDashboardVin65Alliance {
+	margin: 0 0 ($margin-bottom * 2);
+
+	@media screen and (min-width:42.5em){
+		float: left;
+		padding: 0 2%;
+		width: 46%;
+	}	
+		
+	h4 {
+		background: url(../images/v65-icons/alliance.svg) left top no-repeat;
+		padding-left: 1.75em;
+	}
+
+	p {
+		border-bottom: 1px solid #eee;
+		padding-bottom: 0.3em;
+	}
+
+}
+
+.v65-memberDashboardVin65AllianceDescription {
+	margin: 0 0 ($margin-bottom * 2);
+
+	@media screen and (min-width:42.5em){
+		float: left;
+		padding: 0 2%;
+		width: 46%;
+	}	
+}

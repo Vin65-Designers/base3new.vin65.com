@@ -1,0 +1,257 @@
+//v65:checkout
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+.v65-checkoutSteps {
+	margin-bottom: ($margin-bottom * 2);
+	padding: 0 2%;
+	text-align: center;
+
+	@media screen and (min-width: 36em) {
+		text-align: right;
+	}
+
+	span {
+		display: inline-block;
+		margin-left: 5%;
+	}
+
+	.active {
+		color: #000;
+	}
+}
+
+.v65-checkout {
+	
+	@media screen and (min-width: 48.75em) {
+		float: left;
+		width: 65%;
+	}
+
+	.v65-complete {
+		background: url(../images/v65-icons/check.svg) no-repeat;
+		background-size: 100% 100%;
+		display: inline-block;
+		height: 26px;
+		width: 26px;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	.v65-orderNumber {
+		font-weight: bold;
+	}
+
+	div {
+		margin-bottom: $margin-bottom;
+
+		form {
+			max-width: 32em;
+
+			@media screen and (min-width: 27em) {
+				padding-left: 1em;
+			}
+
+			button {
+				width: 100%;
+
+				@media screen and (min-width: 27em) {
+					width: auto;
+				}
+			}
+		}
+	}
+
+	.v65-shippingInformation {
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 2em;
+		margin-bottom: ($margin-bottom * 2);
+	}
+
+	.v65-shippingOptions {
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 2em;
+		margin-bottom: ($margin-bottom * 2);
+	}
+
+	.v65-billingInformation {
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 2em;
+		margin-bottom: ($margin-bottom * 2);
+
+		form {
+			max-width: 100%;
+		}
+	}
+
+		.v65-billingContact {
+			
+			@media screen and (min-width: 32em) {
+				float: left;
+				min-width: 350px;
+				padding-right: 3%;
+				width: 55%;
+			}
+
+		}
+
+		.v65-paymentInformation {
+			min-width: 230px;
+			margin-bottom: 0;
+			
+			@media screen and (min-width: 32em) {
+				float: left;
+				width: 40%;
+			}
+
+		}
+
+			.v65-creditCard {
+				display: inline-block;
+				height: 25px;
+				width: 37px;
+				text-indent: 100%;
+				white-space: nowrap;
+				overflow: hidden;
+			}
+
+				.v65-visaOn {
+					background: url(../images/v65-icons/visa-on.png) no-repeat;
+				}
+
+				.v65-mastercard {
+					background: url(../images/v65-icons/mastercard.png) no-repeat;
+				}
+
+				.v65-amex {
+					background: url(../images/v65-icons/amex.png) no-repeat;
+				}
+
+				.v65-discover {
+					background: url(../images/v65-icons/discover.png) no-repeat;
+				}
+
+				.v65-paypal {
+					background: url(../images/v65-icons/paypal.png) no-repeat;
+				}
+
+				.v65-dinners {
+					background: url(../images/v65-icons/dinners.png) no-repeat;
+				}
+
+				.v65-jcb {
+					background: url(../images/v65-icons/jcb.png) no-repeat;
+				}
+}
+
+	
+
+.v65-checkoutTools {
+	
+	@media screen and (min-width: 48.75em) {
+		float: right;
+		padding-left: 3%;
+		width: 35%;
+	}
+
+	.v65-cartDiscount {
+		float: none;
+		width: 100%;
+	}
+
+	.v65-cartSummary {
+		float: none;
+		width: 100%;
+
+		.v65-withForm {
+			line-height: 34px;
+		}
+	}
+
+}
+
+	.v65-checkoutSummary {
+	
+		.v65-cartItem {
+			@include clearfix;
+			margin-bottom: ($margin-bottom * 2);
+		}
+
+		.v65-image {
+			float: left;
+			padding-right: 2%;
+			text-align: center;
+			width: 19%;
+
+			img {
+				max-height: 80px;
+			}
+		}
+
+		.v65-info {
+			float: left;
+			width: 80%;
+		}
+
+			.v65-meta {
+				margin-bottom: 0.5rem;
+
+				.v65-error {
+					margin: 0;
+				}
+			}
+
+				.v65-sku {
+					font-size: 0.75rem;
+					margin-bottom: 0.5em;
+				}
+
+
+			.v65-pricing {
+				float: left;
+				width: 100%;
+			}
+
+				.v65-totalPrice {
+					font-size: 1.2em;
+					float: right;
+					text-align: right;
+					width: 33%;
+				}
+
+				.v65-skuPrice {
+					float: left;
+					margin-bottom: 0.5em;
+					width: 66%;
+				}
+
+					.v65-price {
+						font-size: 1.3em;
+						padding-right: 0.5em;
+						width: auto;
+
+						&::after {
+							content: "/";
+							margin-left: 0.3em;
+						}
+					}
+
+					.v65-skuDescription {
+						font-size: 0.75em;
+						margin-right: 1em;
+						width: auto;
+					}
+	}
+.v65-orderNumber {
+	font-weight: bold;
+}
+
+.v65-selectShippingAdress {
+	width: 240px;
+}
+
+.v65-checkoutProcessButton {
+	clear: both;
+}

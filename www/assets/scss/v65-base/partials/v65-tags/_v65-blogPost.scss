@@ -1,0 +1,75 @@
+//v65:blogPost
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+
+.v65-blogPost {
+	@include clearfix;
+	margin: 0 0 ($margin-bottom * 2);
+	position: relative;
+}
+
+	.v65-avatar {
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 3em;
+	}
+
+	.v65-blogPostText {
+		margin-left: 4em;
+	}
+
+		.v65-blogPostMeta {
+			@include clearfix;
+			margin-bottom: 0.5em;
+		}
+
+			.v65-blogPostDate {
+				float: left;
+
+				&:after {
+					content: "\00a0\00a0|\00a0\00a0";
+				}
+			}
+
+			.v65-blogPostAuthor {
+				float: left;
+			}
+
+		.v65-blogPostTitle  {
+			font-size: 1.25em;
+			margin-bottom: 0.5em;
+		}
+
+		.v65-blogPostLink {
+			&:after {
+				content: "\00a0\00BB";
+			}
+			&:before {
+				content: "\00a0\00a0\00a0\00a0";
+			}
+		}
+
+	.v65-blogFooter {
+		@include clearfix;
+	}
+
+		.v65-blogFooterDate {
+			float: left;
+			margin-right: 1.5em;
+		}
+
+		.v65-blogFooterComments {
+			float: left;
+
+			span {
+				&:before {
+					content: "("
+				}
+				&:after {
+					content: ")"
+				}
+			}
+		}

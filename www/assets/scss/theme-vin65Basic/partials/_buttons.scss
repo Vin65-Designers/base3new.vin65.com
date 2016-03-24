@@ -1,0 +1,77 @@
+//buttons
+@mixin button {
+	background: $buttonColor;
+	border: 1px solid $buttonColorOutline;
+	border-radius: 0.2em;
+	color: $button;
+	cursor: pointer;
+	display: inline-block;
+	line-height: normal;
+	margin: 0;
+	padding: 0.5em 1em;
+	text-align: center;
+
+	-moz-transition: background .2s ease-in;
+    -o-transition: background .2s ease-in;
+    -webkit-transition: background .2s ease-in;
+    transition: background .2s ease-in;
+
+	&:hover {
+		background: $buttonColorHover;
+		border: 1px solid $buttonColorOutlineHover;
+		text-decoration: none;
+	}
+}
+
+
+.button, button {
+	@include button();
+}
+
+.buttonSmall, buttonSmall {
+	@include button();
+	padding: 0.25em 0.5em;
+	font-size: 0.75rem;
+}
+
+.buttonLarge, buttonLarge {
+	@include button();
+	font-size: 1.2rem;
+
+	@media screen and (min-width: 23em) {
+		font-size: 1.4rem;
+	}
+}
+
+@mixin buttonAlt {
+	background: $buttonAltColor;
+	border: 1px solid $buttonAltColorOutline;
+	border-radius: 0.2em;
+	color: $buttonAlt;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0;
+	padding: 0.5em 1em;
+	text-align: center;
+
+	-moz-transition: background .2s ease-in;
+    -o-transition: background .2s ease-in;
+    -webkit-transition: background .2s ease-in;
+    transition: background .2s ease-in;
+
+	&:hover {
+		background: $buttonAltColorHover;
+		border: 1px solid $buttonAltColorOutlineHover;
+		text-decoration: none;
+	}
+}
+
+.buttonAlt, buttonAlt {
+	@include buttonAlt();
+}
+
+.buttonAltSmall {
+	@include buttonAlt();
+	padding: 0.25em 0.5em;
+	font-size: 0.75rem;
+}

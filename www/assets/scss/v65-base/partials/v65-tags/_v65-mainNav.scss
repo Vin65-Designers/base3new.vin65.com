@@ -1,0 +1,64 @@
+//v65:mainNav
+
+.v65-mainNav {
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		display: inline-block;
+		margin: 0 1em;
+		padding: 0;
+		position: relative;
+
+		ul {
+			background: #fff;
+			opacity: 0;
+			position: absolute;
+			top: 2.5em;
+			left: 0;
+			visibility: hidden;
+			width: 15em;
+
+			transition: visibility .25s ease-in-out, opacity .25s ease-in-out;
+			-moz-transition: visibility .25s ease-in-out, opacity .25s ease-in-out;
+			-webkit-transition: visibility .25s ease-in-out, opacity .25s ease-in-out;
+		}
+
+		li {
+			display: list-item;
+			margin: 0;
+			padding: 0.25em 0;
+		}
+
+		// Drop Down + focus for tough devices
+		&:hover ul, &:focus ul {
+			@media screen and (min-width: 48em){
+				opacity: 1;
+				visibility:visible;
+			}
+		}
+	}
+
+	a {
+		display: inline-block;
+		padding: 0.5em;
+
+		&:hover {
+
+		}
+	}
+
+	.v65-pageAParent {
+
+	}
+
+	.v65-selected  {
+		cursor: default;
+		text-decoration: none;
+	}
+
+}

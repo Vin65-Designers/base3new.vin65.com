@@ -1,0 +1,23 @@
+/* SCSS Document */
+@charset "utf-8";
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+//v65 baseTheme styles
+@import '_mixins.scss';
+@import 'partials/_normalize.scss';
+@import 'partials/_generics.scss';
+@import 'partials/_variables.scss';
+@import 'partials/_typography.scss';
+@import 'partials/_buttons.scss';
+@import 'partials/_header.scss';
+@import 'partials/_footer.scss';
+@import 'partials/_pages.scss';
+@import 'partials/_memberPages.scss';
+@import 'partials/_v65-tools.scss';
+@import 'partials/_v65-checkout.scss';
+@import 'partials/_v65-components.scss';
+@import 'partials/_modal.scss';

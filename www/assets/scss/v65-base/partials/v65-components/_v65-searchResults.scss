@@ -1,0 +1,48 @@
+//v65:searchResults
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+.v65-searchResultsCategoryTitle {
+	font-size: 1.25em;
+	font-weight: bold;
+	margin-bottom: $margin-bottom;
+	padding: 0;
+}
+
+.v65-searchResults {
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 ($margin-bottom * 2);
+	padding: 0 0 2em 1em;
+
+	@include clearfix;
+
+	li {
+		margin-bottom: $margin-bottom;
+	}
+}
+
+	.v65-searchResultsCount {
+		margin: 0 0 $margin-bottom;
+
+		span {
+			font-style: italic;
+			font-weight: bold;
+		}
+	}
+
+	.v65-searchResultsPages {
+		margin: 0 0 $margin-bottom;
+	}
+
+		.v65-searchResultsTitle {
+			font-size: 1.4em;
+		}
+
+	.v65-searchResultsProducts {
+
+	}
+
+	.v65-searchResultsBlogs {
+
+	}

@@ -1,0 +1,19 @@
+//v65:breadCrumbs
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+
+.v65-breadCrumbs {
+	@include clearfix;
+
+	ul {
+		margin: 0 0 $margin-bottom;
+		padding: 0;
+	}
+
+	li {
+		display: inline;
+		margin-right: 0.5em;
+	}
+}

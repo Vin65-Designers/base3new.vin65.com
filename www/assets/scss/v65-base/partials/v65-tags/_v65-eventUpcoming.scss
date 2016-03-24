@@ -1,0 +1,26 @@
+//v65:event:upcoming
+
+.v65-eventUpcoming {
+	@include clearfix;
+	margin: 0 auto;
+	max-width: 50em;
+	text-align: center;
+}
+
+	.v65-eventUpcomingEvent {
+		margin-bottom: 1em;
+	}
+
+	.v65-eventUpcomingDate {
+
+	}
+
+	.v65-eventUpcomingTime {
+
+	}
+
+	.v65-eventUpcomingTitle {
+		font-weight: bold;
+	}
+				
+			

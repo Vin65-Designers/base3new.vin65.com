@@ -1,0 +1,90 @@
+.v65-modal{
+  width:100%;
+  z-index: 100;
+  background:#fff;
+  position: absolute;
+  margin: auto;
+  opacity:0;
+  top:0;
+  pointer-events: none;
+  display: none;
+  
+  @include breakpoint(desktop) {
+    width:630px;
+    top:10px;
+    left:50%;
+    margin-left:-315px;
+  }
+
+  &.v65-active{
+    opacity:1;
+    display: block;
+    pointer-events: auto;
+  }
+  
+  .v65-modalBar{
+    @include clearfix;
+    padding:0.5em 1em;
+    position: relative;
+    
+    .v65-modalTitle{
+      @extend .v65-floatLeft;
+      padding:0;
+    }
+    
+    .v65-modalClose {
+      @extend .v65-floatRight;
+      position: relative;
+      width: 20px;
+      height: 20px;
+      opacity: 0.3;
+      margin:0.5em 0;
+      
+      &:before,&:after{
+        position: absolute;
+        left: 10px;
+        content: ' ';
+        height: 20px;
+        width: 2px;
+        background-color: #333;
+      }
+      
+      &:before{
+        transform: rotate(45deg);
+      }
+      
+      &:after{
+        transform: rotate(-45deg);
+      }
+      
+      &:hover{
+        opacity: 1;
+      }
+    }    
+  }
+  
+  .v65-modalContent{
+    padding:1em;
+    padding-top: 0;
+    position: relative;
+  }  
+}
+
+.v65-modalBackdrop{
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index: 99;
+  opacity: 0;
+  pointer-events: none;
+  display: none;
+
+  &.v65-active{
+    opacity: 1;
+    display: block; 
+    pointer-events: auto;
+  }
+}

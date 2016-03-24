@@ -1,0 +1,13 @@
+.v65-brixColumns {
+		@extend .v65-colWrapper;
+  margin: 4em 0;
+
+  .v65-brixColumn{
+  	@extend .v65-col3;
+  	text-align: center;
+  }
+}
+
+.v65-brixColumns .v65-brixColumn img {
+  margin-bottom: 1em;
+}

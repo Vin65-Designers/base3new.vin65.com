@@ -1,0 +1,33 @@
+//v65:blog:recentPosts
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+
+.v65-blogRecentPosts {
+	margin: 0 0 $margin-bottom;
+	
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		margin-bottom: 0.5rem;
+	}
+}
+
+.v65-blogRecentPostsDate {
+
+}
+					
+.v65-blogRecentPostsComments {
+	&:before {
+		content: "("
+	}
+
+	&:after {
+		content: ")"
+	}
+}

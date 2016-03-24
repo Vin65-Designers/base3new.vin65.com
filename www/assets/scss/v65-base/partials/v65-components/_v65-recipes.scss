@@ -1,0 +1,74 @@
+//v65:recipe
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+//List
+.v65-recipe {
+	@include clearfix;
+	margin: 0 0 ($margin-bottom * 2);
+	position: relative;
+
+	.v65-recipePhoto {
+		
+	}
+
+	.v65-recipeInfo  {
+
+	}
+}
+
+
+	.v65-recipeTitle {
+		font-size: 1.25em;
+		margin-bottom: 0.5em;
+		padding: 0;
+	}
+
+	.v65-recipeSubtitle {
+		font-size: 1.1em;
+		font-weight: bold;
+		margin-bottom: 0.5em;
+		padding: 0;
+	}
+
+	.v65-recipeDate {
+		color: #666;
+		font-style: italic;
+	}
+
+	.v65-recipeLink {
+		&:after {
+			content: "\00a0\00BB";
+		}
+		&:before {
+			content: "\00a0\00a0\00a0\00a0";
+		}
+	}
+
+//Detail
+
+.v65-recipeDetail {
+	@include clearfix;
+	position: relative;
+
+	.v65-recipePhoto {
+		
+	}
+
+	.v65-recipeInfo {
+		
+	}
+
+	.v65-recipeAttributes {
+		
+	}
+
+	.v65-recipeIngredients {
+		
+	}
+
+	.v65-recipeDirections {
+		
+	}
+}

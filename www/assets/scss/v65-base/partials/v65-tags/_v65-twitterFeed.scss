@@ -1,0 +1,32 @@
+//v65:twitterFeed
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+
+.v65-twitterFeed {
+
+	.v65-tweet {
+		@include clearfix;
+		max-width: 50em;
+		position: relative;
+	}
+
+	.v65-tweetProfileImage {
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 60px;
+	}
+
+	.v65-tweetText {
+		margin: 0 0 $margin-bottom 64px;
+		min-height: 48px;
+	}
+
+	.v65-tweetDetails {
+		width: 100%;
+		text-align: center;
+	}
+
+}

@@ -1,0 +1,29 @@
+//codeTheme CSS
+
+//v65-mainNav
+
+.v65-mainNav {
+
+	li
+
+	a {
+
+		&:hover {
+			color: #000;
+		}
+	}
+
+	.v65-pageAParent {
+		color: #000;
+	}
+
+	.v65-selected  {
+		color: #000;
+	}
+
+	.hover {
+		color: #000;
+	}
+
+
+}

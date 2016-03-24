@@ -1,0 +1,21 @@
+//v65:tools
+.v65-tools {
+	
+	a {
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.v65-cartDropdown {
+	-webkit-box-shadow: 1px 1px 3px 0px rgba(50,50,50,1);
+	-moz-box-shadow: 1px 1px 3px 0px rgba(50,50,50,1);
+	box-shadow: 1px 1px 3px 0px rgba(50,50,50,1);
+}		
+
+.v65-memberDropdown {
+	-webkit-box-shadow: 1px 1px 3px 0px rgba(50,50,50,1);
+	-moz-box-shadow: 1px 1px 3px 0px rgba(50,50,50,1);
+	box-shadow: 1px 1px 3px 0px rgba(50,50,50,1);
+}

@@ -1,0 +1,27 @@
+//v65:subNav
+
+.v65-subNav {
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		padding: 0.5em 0;
+
+		li {
+			margin-left: 1em; 
+		}
+	}
+
+	.v65-pageAParent {
+
+	}
+
+	.v65-selected  {
+		cursor: default;
+		text-decoration: none;
+	}
+}

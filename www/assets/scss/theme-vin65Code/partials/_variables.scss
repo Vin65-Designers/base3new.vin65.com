@@ -1,0 +1,22 @@
+//codeTheme CSS
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+//variables
+
+@mixin clearfix {
+	&:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	}
+}
+
+//baseTheme Typography
+$themeFont: 'Lato', sans-serif; //300,400
+
+$color: #121212;
+$linkColor: #336699;

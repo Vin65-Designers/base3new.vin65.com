@@ -1,0 +1,184 @@
+//codeTheme CSS
+
+body {
+	font-family: $themeFont;
+	font-size: 100%;
+	padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+	margin: 0 0 1.4em;
+	font-weight: normal;
+}
+
+h1 {
+	line-height: 1;
+	margin-bottom: 1em;
+}
+
+h2 {
+	line-height: 1;
+	margin-bottom: 1em;
+}
+
+h3 {
+	line-height: 1;
+	margin-bottom: 1em;
+}
+
+p {
+	line-height: 1.4;
+}
+
+ul {
+	margin-bottom: 1.4em;
+}
+
+li {
+	padding: 0 0 0.7em;
+}
+
+a {
+	color: $linkColor;
+	text-decoration: none;
+
+	&:hover {
+		cursor: pointer;
+		text-decoration: underline;
+	}
+}
+
+//Forms
+
+form {
+	margin: 0 0 1em;
+
+	div {
+		margin-bottom: 0.5em;
+	}
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+legend {
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+
+label {
+	display: block;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=password], input[type=username] {
+	border: 1px solid #ccc;
+	padding: 0.5em;
+	width: 100%;
+}
+
+.button, button {
+	background: #eee;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0;
+	padding: 0.5em 1em;
+	text-align: center;
+
+	&:hover {
+		background: #ccc;
+		text-decoration: none;
+	}
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code, kbd, pre, samp {
+  font-size: 0.75rem !important;
+} 
+
+pre {
+	background: #ffffcc;
+	color: #666;
+	padding: 0.5em;
+}
+
+code {
+	tab-size: 4;
+}
+
+p,td,th {
+	color: #666;
+}
+
+em {
+	color: #000;
+}
+
+//v65-select boxes
+.v65-selectWrapper {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+    background: #fff;
+    margin-bottom: 0 !important;
+    padding: 0.2em 0;
+    position: relative;
+
+    &:after {
+		top: 50%;
+		right: 15px;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(0, 0, 0, 0);
+		border-top-color: #000000;
+		border-width: 5px;
+		margin-top: -2px;
+		z-index: 100;
+	}
+
+    select {
+		padding: 5px 8px;
+		width: 130%;
+		border: none;
+		box-shadow: none;
+		background-color: transparent;
+		background-image: none;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+	}
+
+	select:focus {
+		outline: none;
+	}
+}
+
+.sample {
+	background: #efefef;
+	margin: 2em 0;
+	padding: 0.5em;
+	@include clearfix;
+
+	@media screen and (min-width: 30em){
+		padding: 2em;
+	}
+}
+
+.new {
+	color: #cc0000;
+	font-size: 11px;
+	font-style: italic;
+}

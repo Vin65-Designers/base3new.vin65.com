@@ -1,0 +1,178 @@
+2016-01-13 09:30:27 overwrite assets/css/v65-base.min.css 
+2016-01-13 09:31:21 identical assets/css/v65-base.min.css 
+2016-01-13 09:32:00 overwrite assets/css/v65-base.min.css 
+2016-01-13 09:33:04 overwrite assets/css/v65-base.min.css 
+2016-01-13 09:34:30 overwrite assets/css/v65-base.min.css 
+2016-01-13 09:36:19 overwrite assets/css/v65-base.min.css 
+2016-01-13 09:36:40 overwrite assets/css/v65-base.min.css 
+2016-01-13 09:36:47 overwrite assets/css/v65-base.min.css 
+2016-01-13 11:10:09 overwrite assets/css/v65-base.min.css 
+2016-01-13 11:10:21     error assets/scss/v65-base/v65-base.min.scss (Line 25: File to import not found or unreadable: partials/v65-tags/_v65-subNav.
+Load paths:
+  /Volumes/Development/data/websites/templates2/virtual/base3.vin655.com/www/assets/scss/v65-base
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2016-01-13 11:10:21 overwrite assets/css/v65-base.min.css 
+2016-01-13 11:11:22     error assets/scss/v65-base/v65-base.min.scss (Line 25: File to import not found or unreadable: partials/v65-tags/_v65-subNav.
+Load paths:
+  /Volumes/Development/data/websites/templates2/virtual/base3.vin655.com/www/assets/scss/v65-base
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2016-01-13 11:11:22 identical assets/css/v65-base.min.css 
+2016-01-13 11:11:23     error assets/scss/v65-base/v65-base.min.scss (Line 25: File to import not found or unreadable: partials/v65-tags/_v65-subNav.
+Load paths:
+  /Volumes/Development/data/websites/templates2/virtual/base3.vin655.com/www/assets/scss/v65-base
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2016-01-13 11:11:23 identical assets/css/v65-base.min.css 
+2016-01-13 11:11:25 overwrite assets/css/v65-base.min.css 
+2016-01-13 14:58:31 overwrite assets/css/v65-base.min.css 
+2016-01-13 16:04:52     error assets/scss/v65-base/v65-base.min.scss (Line 57 of assets/scss/v65-base/partials/v65-components/_v65-calendar.scss: Undefined mixin 'group'.)
+2016-01-13 16:04:52 overwrite assets/css/v65-base.min.css 
+2016-01-13 16:06:29     error assets/scss/v65-base/v65-base.min.scss (Line 101 of assets/scss/v65-base/partials/v65-components/_v65-calendar.scss: Undefined mixin 'group'.)
+2016-01-13 16:06:29 overwrite assets/css/v65-base.min.css 
+2016-01-13 16:06:39 overwrite assets/css/v65-base.min.css 
+2016-01-13 16:09:26 identical assets/css/v65-base.min.css 
+2016-01-13 16:09:34 overwrite assets/css/v65-base.min.css 
+2016-01-13 16:09:38 overwrite assets/css/v65-base.min.css 
+2016-01-15 10:10:37     error assets/scss/v65-base/v65-base.min.scss (Line 19: File to import not found or unreadable: partials/v65-tags/_v65-eventToday.
+Load paths:
+  /Volumes/Development/data/websites/templates2/virtual/base3.vin655.com/www/assets/scss/v65-base
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2016-01-15 10:10:37 overwrite assets/css/v65-base.min.css 
+2016-01-15 10:10:37     error assets/scss/v65-base/v65-base.min.scss (Line 19: File to import not found or unreadable: partials/v65-tags/_v65-eventToday.
+Load paths:
+  /Volumes/Development/data/websites/templates2/virtual/base3.vin655.com/www/assets/scss/v65-base
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2016-01-15 10:10:37 identical assets/css/v65-base.min.css 
+2016-01-15 10:10:37     error assets/scss/v65-base/v65-base.min.scss (Line 19: File to import not found or unreadable: partials/v65-tags/_v65-eventToday.
+Load paths:
+  /Volumes/Development/data/websites/templates2/virtual/base3.vin655.com/www/assets/scss/v65-base
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2016-01-15 10:10:37 identical assets/css/v65-base.min.css 
+2016-01-15 10:10:37     error assets/scss/v65-base/v65-base.min.scss (Line 19: File to import not found or unreadable: partials/v65-tags/_v65-eventToday.
+Load paths:
+  /Volumes/Development/data/websites/templates2/virtual/base3.vin655.com/www/assets/scss/v65-base
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2016-01-15 10:10:37 identical assets/css/v65-base.min.css 
+2016-01-15 10:10:46     error assets/scss/v65-base/v65-base.min.scss (Line 19: File to import not found or unreadable: partials/v65-tags/_v65-eventToday.
+Load paths:
+  /Volumes/Development/data/websites/templates2/virtual/base3.vin655.com/www/assets/scss/v65-base
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2016-01-15 10:10:46 overwrite assets/css/v65-base.min.css 
+2016-01-15 10:10:47     error assets/scss/v65-base/v65-base.min.scss (Line 19: File to import not found or unreadable: partials/v65-tags/_v65-eventToday.
+Load paths:
+  /Volumes/Development/data/websites/templates2/virtual/base3.vin655.com/www/assets/scss/v65-base
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2016-01-15 10:10:47 identical assets/css/v65-base.min.css 
+2016-01-15 10:10:58 overwrite assets/css/v65-base.min.css 
+2016-01-15 10:11:38 identical assets/css/v65-base.min.css 
+2016-01-15 10:13:48    create assets/css/v65-base.min.css 
+2016-01-15 11:53:37     error assets/scss/v65-base/v65-base.min.scss (Line 19: File to import not found or unreadable: partials/v65-tags/_v65-eventCalendar.
+Load paths:
+  /Volumes/Development/data/websites/templates2/virtual/base3.vin655.com/www/assets/scss/v65-base
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2016-01-15 11:53:37 overwrite assets/css/v65-base.min.css 
+2016-01-15 11:53:38     error assets/scss/v65-base/v65-base.min.scss (Line 19: File to import not found or unreadable: partials/v65-tags/_v65-eventCalendar.
+Load paths:
+  /Volumes/Development/data/websites/templates2/virtual/base3.vin655.com/www/assets/scss/v65-base
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2016-01-15 11:53:38 identical assets/css/v65-base.min.css 
+2016-01-15 11:53:51 overwrite assets/css/v65-base.min.css 
+2016-03-02 12:20:15 overwrite assets/css/v65-base.min.css 

@@ -1,0 +1,40 @@
+//v65:ageGate
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+.v65-ageGate {
+	&.v65-yesNoValidation {
+		text-align: center;
+		
+		.v65-button {
+			max-width: 12em;
+			width: 100%;
+		}
+
+		.v65-ageGateYes, .v65-ageGateNo {
+			margin: 0 auto $margin-bottom;
+			max-width: 12em;
+			width: 100%;
+		}
+
+		form {
+			margin: 0 auto;
+		}
+	}
+
+	&.v65-birthDateValidation {
+		@include clearfix;
+		margin: 0 auto;
+		max-width: 40em;
+		
+		p {
+			text-align: center;
+		}
+
+		form {
+			margin: 0 auto;
+			max-width: 350px;
+		}
+	}
+}

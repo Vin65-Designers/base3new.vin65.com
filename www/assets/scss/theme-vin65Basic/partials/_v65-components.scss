@@ -1,0 +1,358 @@
+//v65:mainNav
+.v65-mainNav {
+	margin-bottom: 1em;
+	
+	li {
+		padding: 0;
+
+		a {
+			color: #111;
+
+			@media screen and (min-width: 23em) {
+				padding: 1em;
+			}
+			
+		}
+
+		ul {
+			border: 1px solid #999;
+			box-shadow: 1px 1px 2px 0px rgba(69,69,69,1);
+			font-size: 0.875em;
+			text-align: left;
+			top: 3em;
+		}
+
+		li {
+			
+
+			a {
+				padding: none;
+				padding: 0.4em 1em 0.5em;
+			}
+		}
+
+	}
+
+}
+
+//v65:subNav
+.v65-subNav{
+
+	li {
+		border-top: 1px solid #aaa;
+		margin: 0;
+		padding: 0.5em;
+		width: 100%;
+
+		@media screen and (min-width: 48.75em) {
+			border: 0;
+			margin: 0 1em;
+			width: auto;
+		}
+
+		a {
+			color: #666;
+
+			&:hover, &:focus {
+				color: #000;
+				text-decoration: none;
+			}
+		}
+	}
+
+}
+
+//blog
+.v65-blogCategories, .v65-blogAuthors, .v65-blogArchives {
+	span {
+		color: #333;
+    	font-size: 0.75rem;
+    }
+}
+
+//v65:sectionTitle
+.v65-sectionTitle {
+	color: $titleColor;
+	font-size: 1.6rem;
+	line-height: 1.2;
+	margin: 0.5em 0;
+}
+
+
+//v65:footerNav
+.v65-footerNav {
+
+	li {
+		border-bottom: 1px solid #aaa;
+		margin: 0;
+		padding: 0.25em 0;
+		width: 100%;
+
+		@media screen and (min-width: 23em) {
+			border: 0;
+			margin: 0 1em;
+			padding: 0;
+			width: auto;
+		}
+
+		a {
+			color: #666;
+
+			&:hover, &:focus {
+				color: #000;
+				text-decoration: none;
+			}
+		}
+	}
+
+}
+
+//Form
+.v65-customForm {
+	color: #666;
+}
+
+//Checkbox types
+.v65-customFormCheckboxGroup {
+	span {
+		font-weight: bold;
+	}
+}
+
+//Radio Types
+.v65-customFormRadioGroup {
+	span {
+		font-weight: bold;
+	}
+}
+
+//Date Picker
+.ui-datepicker {
+	padding: 1em;
+	border: 1px solid #ccc;
+	background: #fff;
+
+	th,td {
+		padding: 0.2em;
+		text-align: center;
+	}
+}
+
+.ui-datepicker-header {
+	font-size: 0.875em;
+	text-align: center;
+}
+
+	.ui-datepicker-title {
+		margin: 0.5em 0;
+	}
+
+//Blog
+.v65-blogPostTitle {
+	color: $titleColor;
+	font-size: 1.9rem;
+	line-height: 1.2;
+	margin: 0 0 0.5em 0;
+}
+
+.v65-blogRecentPostsDate, .v65-blogRecentPostsComments {
+	color: #333;
+	font-size: 0.75rem;
+}
+
+.v65-blogRecentPostsComments {
+	display: inline-block;
+	margin-left: 0.5em;
+}
+
+//v65:businessLocator
+.v65-businessLocator {
+	
+	form {
+		border: 1px dotted #ccc;
+		padding: 1em;
+	}
+}
+
+.v65-businessLocatorSearch {
+	margin-bottom: 2em;
+	padding: 0 1em;
+}				
+
+	.v65-businessLocatorSearchOr {
+		text-align: center;
+	}
+					
+					
+.v65-businessLocatorList {
+	border-top: 2px solid #eee;
+	padding: 1em 0;
+}
+					
+.v65-businessLocatorMap {
+	background-color: #eee;
+	border: 1px solid #ccc;
+}
+
+//v65:calendarList {
+.v65-calendarMonth {
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+
+
+
+//v65:clubList
+.v65-clubList {
+	border: 1px solid #ccc;
+	margin-bottom: 2em;
+	padding: 1em;
+
+	h2 {
+
+	}
+
+}
+					
+.v65-clubListTeaser {
+	padding: 0 0 0 1em;
+}
+
+.v65-clubListLink {
+	border-top: 1px dotted #eee;
+	padding-top: 1em;
+	text-align: right;
+}
+
+
+//v65:faq
+.v65-faq {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 2em;
+}
+
+	.v65-faqAnswer {
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 2em;
+	}
+
+	.v65-faqBackLink {
+		font-weight: bold;
+		text-align: right;
+	}
+
+//v65:recipe
+
+//List
+.v65-recipe {
+	min-height: 10em;
+
+	.v65-recipePhoto {
+		text-align: center;
+		margin-bottom: 1.5rem;
+
+		@media screen and (min-width: 23em) {
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 10em;
+		}
+	}
+
+	.v65-recipeInfo  {
+		@media screen and (min-width: 23em) {
+			margin-left: 11em;
+		}
+	}
+
+}
+
+//Detail
+.v65-recipeDetail {
+	margin: 0 0 2em;
+	text-align: center;
+
+	.v65-recipePhoto {
+		margin-bottom: ($margin-bottom * 2);
+
+		@media screen and (min-width:42.5em){
+			float: left;
+			margin: 0 1em 1em 0;
+		}
+	}
+
+	.v65-recipeInfo {
+		margin-bottom: ($margin-bottom * 2);
+		text-align: left;
+	}
+
+	.v65-recipeAttributes {
+		margin-bottom: 2em;
+
+		@media screen and (min-width: 42.5em){
+			clear: both;
+			border-top: 1px solid #ccc;
+			border-bottom: 1px solid #ccc;
+			padding: 1em 0;
+		}
+	}
+
+	.v65-recipeIngredients {
+		margin-bottom: ($margin-bottom * 2);
+		text-align: left;
+
+		@media screen and (min-width: 42.5em){
+			float: right;
+			padding-left: 5%;
+			width: 40%;
+		}
+	}
+
+	.v65-recipeDirections {
+		margin-bottom: ($margin-bottom * 2);
+		text-align: left;
+
+		@media screen and (min-width: 42.5em){
+			float: left;
+			width: 60%;
+		}
+	}
+}
+
+//Product
+.v65-productPrice {
+	font-size: 1.4em;
+}
+
+//v65:product:link
+.v65-product-link {
+
+	a {
+		&:after {
+			content: "\00a0\00BB";
+		}
+	}
+
+}
+
+//Product Groups
+.v65-product-groupTitle {
+	//text-align: center;
+}	
+
+.v65-product-groupTeaser {
+	//text-align: center;
+}
+
+.v65-product-groupProducts {
+	// .v65-product {
+	// 	width: 33%;
+	// }
+
+	// .v65-productInfo, .v65-product-photo {
+	// 	float: none;
+	// 	width: 100%;
+	// }
+}

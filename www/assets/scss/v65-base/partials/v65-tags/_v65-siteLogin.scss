@@ -1,0 +1,27 @@
+//v65:siteLogin
+
+.v65-siteLogin {
+	@include clearfix;
+	margin: 0 auto;
+	max-width: 40em;
+
+	.v65-siteLoginContent {
+		margin-bottom: 1.5em;
+
+		@media screen and (min-width: 30em){
+			float: right;
+			width: 58%;
+		}
+	}
+
+	form {
+		float: left;
+		margin-bottom: 1.5em;
+
+		@media screen and (min-width: 30em){
+			padding-right: 4%;
+			width: 38%;
+		}
+	}
+
+}

@@ -1,0 +1,60 @@
+//v65:comments
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+.v65-comments {
+	@include clearfix;
+	margin-bottom: ($margin-bottom * 2);
+}
+
+	.v65-commentsTitle {
+		font-size: 1.8rem;
+		margin-bottom: $margin-bottom;
+	}
+
+	.v65-comment {
+		@include clearfix;
+		margin: 0 0 2em;
+		position: relative;
+	}
+
+		.v65-commentText {
+			margin-left: 4em;
+		}
+
+		.v65-commentMeta {
+			margin-bottom: $margin-bottom;
+		}
+			
+			.v65-commentName {
+				font-weight: bold;
+			}
+			
+			.v65-commentDate {
+
+			}
+
+	.v65-addCommentTitle {
+		font-size: 1.8rem;
+		margin-bottom: $margin-bottom;
+	}
+
+	.v65-addCommentEmail {
+		color: #999;
+		font-style: italic;
+
+		&:before {
+			content: "("
+		}
+
+		&:after {
+			content: ")"
+		}
+	}
+
+.v65-addComment {
+	form {
+		max-width: 24em;
+	}
+}

@@ -1,0 +1,207 @@
+//v65:checkoutCart
+
+//variables
+$margin-bottom: 1.5rem !default;
+
+.v65-cartHeader {
+	text-align: center;
+
+	@media screen and (min-width: 23em) {
+		text-align: right;
+	}
+
+	a {
+		margin-left: 1em;
+	}
+}
+
+.v65-checkoutCart {
+	
+	.v65-cartItem {
+		@include clearfix;
+		margin-bottom: ($margin-bottom * 2);
+	}
+
+	.v65-image {
+		float: left;
+		padding-right: 2%;
+		text-align: center;
+		width: 19%;
+
+		@media screen and (min-width: 38em) {
+			width: 9%;
+		}
+
+		img {
+			max-height: 80px;
+		}
+	}
+
+	.v65-info {
+		float: left;
+		width: 80%;
+
+		@media screen and (min-width: 38em) {
+			width: 90%;
+		}
+	}
+
+		.v65-meta {
+			margin-bottom: $margin-bottom * 2;
+
+			@media screen and (min-width: 38em) {
+				float: left;
+				margin: 0;
+				width: 30%;
+			}
+
+			.v65-error {
+				margin: 0;
+			}
+		}
+
+			.v65-sku {
+				font-size: 0.75rem;
+				margin-bottom: 0.5em;
+			}
+
+
+		.v65-pricing {
+			float: left;
+			width: 100%;
+
+			@media screen and (min-width: 38em) {
+				width: 70%;
+			}
+		}
+
+			.v65-totalPrice {
+				font-size: 1.2em;
+				float: right;
+				text-align: right;
+				width: 33%;
+
+				@media screen and (min-width: 38em) {
+					width: 18%;
+				}
+			}
+
+			.v65-skuPrice {
+				float: left;
+				margin-bottom: 0.5em;
+				width: 66%;
+
+				@media screen and (min-width: 38em) {
+					margin: 0;
+					width: 42%;
+				}
+			}
+
+				.v65-price {
+					font-size: 1.3em;
+					width: auto;
+				}
+
+				.v65-skuDescription {
+					margin-right: 1em;
+					width: auto;
+				}
+
+			.v65-action {
+				float: left;
+				text-align: left;
+				width: 100%;
+
+				@media screen and (min-width: 38em) {
+					text-align: right;
+					width: 40%;
+				}
+
+				input {
+					text-align: center;
+					width: 3em;
+				}
+			}
+
+}
+
+.v65-cartTools {
+	@include clearfix;
+	margin-bottom: ($margin-bottom * 2);
+}
+
+	.v65-cartDiscount {
+		float: left;
+
+		@media screen and (min-width: 38em) {
+			width: 50%;
+		}
+
+		@media screen and (min-width: 55em) {
+			width: 40%;
+		}
+
+		input {
+			margin-bottom: 0.5em;
+		}
+	}
+
+	.v65-cartSummary {
+		float: right;
+		text-align: right;
+		width: 100%;
+
+		@media screen and (min-width: 38em) {
+			width: 50%;
+		}
+
+		@media screen and (min-width: 55em) {
+			width: 40%;
+		}
+
+		.v65-subtotal,.v65-shipping,.v65-taxes,.v65-total {
+			@include clearfix;
+			padding: 0.5em 0;
+		}
+
+		.v65-total {
+			font-size: 1.2em;
+		}
+
+			.v65-label {
+				float: left;
+				width: 70%;
+
+				@media screen and (min-width: 32em) {
+					width: 75%;
+				}
+
+				@media screen and (min-width: 38em) {
+					width: 70%;
+				}
+
+			}
+
+			.v65-value {
+				float: right;
+				text-align: right;
+				max-width: 6em;
+				width: 30%;
+			}
+	}
+
+.v65-cartFooter {
+	text-align: center;
+
+	.buttonLarge {
+		width: 100%;
+
+		@media screen and (min-width: 23em) {
+			width: auto;
+		}
+	}
+
+	@media screen and (min-width: 23em) {
+		text-align: right;
+	}
+}

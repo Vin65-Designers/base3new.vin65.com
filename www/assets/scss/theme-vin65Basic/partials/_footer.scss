@@ -1,0 +1,85 @@
+footer {
+	background: #eee;
+	font-size: 0.875rem;
+	margin: 0;
+	padding: 0;
+
+	@media screen and (min-width: 23em) {
+		padding: 1em 0;
+	}
+}
+
+.footerTools {
+	background: #333;
+	color: #fff;
+	font-size: 0.9em;
+	margin: 0;
+	padding: 1em 0.5em 0;
+	text-align: center;
+
+	@media screen and (min-width: 23em) {
+		display: none;
+	}
+
+	a {
+		color: #ccc;
+		display: block;
+		padding: 0 0 1em;
+
+		@media screen and (min-width: 23em) {
+			color: #999;
+			display: inline-block;
+			padding: 0 1em;
+		}
+
+		&:hover, &:focus {
+			color: #fff;
+			text-decoration: none;
+
+			@media screen and (min-width: 23em) {
+				color: #111;
+			}
+		}
+	}
+}
+
+.footerLegal {
+	background: #111;
+	color: #fff;
+	font-size: 0.75rem;
+	margin: 0;
+	padding: 1em 0.5em 0;
+	text-align: center;
+
+	@media screen and (min-width: 23em) {
+		background: none;
+		color: #666;
+	}
+
+					
+	.v65-copyright, .v65-vin65Accolade {
+
+		@media screen and (min-width: 23em) {
+			padding: 1em;
+		}
+
+		a {
+			color: #666;
+			display: block;
+			padding: 0 0 1em;
+
+			@media screen and (min-width: 23em) {
+				color: #999;
+			}
+
+			&:hover, &:focus {
+				color: #fff;
+				text-decoration: none;
+
+				@media screen and (min-width: 23em) {
+					color: #111;
+				}
+			}
+		}
+	}
+}
